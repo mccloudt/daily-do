@@ -1,0 +1,65 @@
+$content-font: 'Nunito Sans', sans-serif;
+$heading-font: 'Shippori Mincho', serif;
+$ui-control: #7a5028;
+$ui-control-hover: #9F6934;
+$cWhite: #f4f9f9;
+h1{
+    padding:0;
+}
+h1, p{
+    margin:0;
+}
+
+.fontLg{
+    font-size:45pt;
+}
+.fontMd{
+    font-size:30pt;
+}
+.fontSm{
+    font-size:24pt;
+}
+.fontP{
+    font-size:16pt;
+}
+.fontUIControl{
+    font-size:12pt;
+}
+.alpha {
+    opacity: 0.5;
+}
+.tMg{
+    margin-top: 5%;
+}
+.bMg{
+    margin-bottom: 5%;
+}
+.mxauto{
+    margin-left: auto;
+    margin-right: auto;
+}
+.centerText{
+    text-align:center;
+}
+.cWhite{
+    color: #f4f9f9;
+}
+
+.headingFont{
+    font-family: $heading-font;
+}
+
+.contentFont{
+    font-family: $content-font;
+}
+.flexCol{
+    display:flex;
+    flex-direction: column;
+}
+
+footer{
+    color:$cWhite;
+    position:absolute;
+    bottom:50px;
+    left: 45%;
+}
